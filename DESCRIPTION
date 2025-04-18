@@ -1,0 +1,29 @@
+Package: UttarPradeshCleanEnergy
+Title: Monitoring Air Quality
+Version: 0.1
+Authors@R: 
+    person("Purushottam", "gupta", , "purushottamgupta2010@gmail.com", role = c("aut", "cre"))
+Description: Capture the Pollutants
+License: MIT + file LICENSE
+Imports: 
+    arrow,
+    config,
+    data.table,
+    dplyr,
+    golem,
+    highcharter,
+    lubridate,
+    magrittr,
+    shiny,
+    shinydashboard,
+    shinydashboardPlus,
+    tidyr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Suggests: 
+    shinytest2,
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US

@@ -1,0 +1,46 @@
+Column1,state,city,station_name,latitude,longitude
+1,Uttar_Pradesh,Agra,"Shastripuram, Agra - UPPCB",27.20289,77.91968
+2,Uttar_Pradesh,Agra,"Shahjahan Garden, Agra - UPPCB",27.09479,77.99
+3,Uttar_Pradesh,Agra,"Sector-3B Avas Vikas Colony, Agra - UPPCB",27.21006,77.95433
+4,Uttar_Pradesh,Agra,"Sanjay Palace, Agra - UPPCB",27.20089,78.005669
+5,Uttar_Pradesh,Agra,"Manoharpur, Agra - UPPCB",27.23546,78.02758
+6,Uttar_Pradesh,Baghpat,"New Collectorate, Baghpat - UPPCB",28.69832,77.255341
+7,Uttar_Pradesh,Bulandshahr,"Yamunapuram, Bulandshahr - UPPCB",28.40881,77.82943
+8,Uttar_Pradesh,Firozabad,"Nagla Bhau, Firozabad - UPPCB",27.15296,78.40389
+9,Uttar_Pradesh,Ghaziabad,"Sanjay Nagar, Ghaziabad - UPPCB",28.694071,77.454857
+10,Uttar_Pradesh,Ghaziabad,"Loni, Ghaziabad - UPPCB",28.73336,77.302582
+11,Uttar_Pradesh,Ghaziabad,"Indirapuram, Ghaziabad - UPPCB",28.638571,77.365677
+12,Uttar_Pradesh,Ghaziabad,"Vasundhara, Ghaziabad - UPPCB",28.664419,77.376671
+13,Uttar_Pradesh,Gorakhpur,"Madan Mohan Malaviya University of Technology, Gorakhpur - UPPCB",26.730484,83.434882
+14,Uttar_Pradesh,Greater Noida,"Knowledge Park - V, Greater Noida - UPPCB",28.48686,77.494209
+15,Uttar_Pradesh,Greater Noida,"Knowledge Park - III, Greater Noida - UPPCB",28.45525,77.498573
+16,Uttar_Pradesh,Hapur,"Anand Vihar, Hapur - UPPCB",28.65416,77.310013
+17,Uttar_Pradesh,Kanpur,"Nehru Nagar, Kanpur - UPPCB",26.831551,80.912331
+18,Uttar_Pradesh,Kanpur,"NSI Kalyanpur, Kanpur - UPPCB",26.51032,80.23088
+19,Uttar_Pradesh,Kanpur,"FTI Kidwai Nagar, Kanpur - UPPCB",26.39297,80.36031
+20,Uttar_Pradesh,Lucknow,"Talkatora District Industries Center, Lucknow - CPCB",26.84464,80.86714
+21,Uttar_Pradesh,Lucknow,"Lalbagh, Lucknow - CPCB",26.84971,80.941673
+22,Uttar_Pradesh,Lucknow,"Kukrail Picnic Spot-1, Lucknow - UPPCB",26.88011,80.95871
+23,Uttar_Pradesh,Lucknow,"Gomti Nagar, Lucknow - UPPCB",26.851311,81.012421
+24,Uttar_Pradesh,Lucknow,"Central School, Lucknow - CPCB",26.88883,80.949257
+25,Uttar_Pradesh,Lucknow,"B R Ambedkar University, Lucknow - UPPCB",26.76268,80.92618
+26,Uttar_Pradesh,Meerut,"Pallavpuram Phase 2, Meerut - UPPCB",29.06254,77.709808
+27,Uttar_Pradesh,Meerut,"Jai Bhim Nagar, Meerut - UPPCB",28.96555,77.72641
+28,Uttar_Pradesh,Meerut,"Ganga Nagar, Meerut - UPPCB",29.006229,77.753441
+29,Uttar_Pradesh,Moradabad,"Jigar Colony, Moradabad - UPPCB",28.86922,78.74118
+30,Uttar_Pradesh,Moradabad,"Employment Office, Moradabad - UPPCB",28.83314,78.76528
+31,Uttar_Pradesh,Moradabad,"Buddhi Vihar, Moradabad - UPPCB",28.83399,78.74333
+32,Uttar_Pradesh,Moradabad,"Lajpat Nagar, Moradabad - UPPCB",28.823839,78.780769
+33,Uttar_Pradesh,Muzaffarnagar,"New Mandi, Muzaffarnagar - UPPCB",29.468929,77.713257
+34,Uttar_Pradesh,Noida,"Sector-116, Noida - UPPCB",28.56616,77.397362
+35,Uttar_Pradesh,Noida,"Sector-1, Noida - UPPCB",28.57266,77.32959
+36,Uttar_Pradesh,Noida,"Sector - 62, Noida - IMD",28.621309,77.365471
+37,Uttar_Pradesh,Noida,"Sector - 125, Noida - UPPCB",28.540331,77.342979
+38,Uttar_Pradesh,Prayagraj,"Nagar Nigam, Prayagraj - UPPCB",25.46268,81.82404
+39,Uttar_Pradesh,Prayagraj,"Motilal Nehru NIT, Prayagraj - UPPCB",25.45171,81.85509
+40,Uttar_Pradesh,Prayagraj,"Jhunsi, Prayagraj - UPPCB",25.42949,81.91557
+41,Uttar_Pradesh,Varanasi,"Maldahiya, Varanasi - UPPCB",25.32639,82.99648
+42,Uttar_Pradesh,Varanasi,"IESD Banaras Hindu University, Varanasi - UPPCB",25.26915,82.9931
+43,Uttar_Pradesh,Varanasi,"Bhelupur, Varanasi - UPPCB",25.29344,82.99188
+44,Uttar_Pradesh,Varanasi,"Ardhali Bazar, Varanasi - UPPCB",25.327789,82.996033
+45,Uttar_Pradesh,Vrindavan,"Omex Eternity, Vrindavan - UPPCB",27.57709,77.69488
