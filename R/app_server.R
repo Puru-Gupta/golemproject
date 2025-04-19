@@ -27,8 +27,8 @@ app_server <- function(input, output, session) {
     if(!is.null(df)){
     df[, .(count = .N), by = .(TYPE_SHORT_NAME, Year)][TYPE_SHORT_NAME %in% c("SHG", "VO", "CLF")] %>%
       dcast(Year ~ TYPE_SHORT_NAME, value.var = "count")
-    }else{
-      print("Data is not available!")
+    }else {
+      return(NULL)
     }
 
   })
