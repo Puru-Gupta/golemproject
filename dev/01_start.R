@@ -64,9 +64,10 @@ golem::use_utils_server(with_test = TRUE)
 usethis::use_git()
 ## Sets the remote associated with 'name' to 'url'
 usethis::use_git_remote(
-  name = "origin",
-  url = "https://github.com/<OWNER>/<REPO>.git"
+  name = "Golemorigin",
+  url = "https://github.com/Puru-Gupta/golemproject.git"
 )
+
 
 # You're now set! ----
 
