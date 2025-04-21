@@ -5,7 +5,7 @@
 #' @import shiny shinydashboard shinydashboardPlus shinyWidgets
 #' @importFrom magrittr %>%
 #' @importFrom golem get_golem_options
-#' @import highcharter
+#' @import highcharter shinythemes
 #' @importFrom highcharter highchartOutput
 #' @noRd
 app_ui <- function(request) {
@@ -19,8 +19,7 @@ app_ui <- function(request) {
     # Your application UI logic
 
       dashboardPage(
-        title = "UPCCCE",
-
+        title = "UPCCCE",#freshTheme = shinytheme("united"),
         header = dashboardHeader(),
 
         sidebar = dashboardSidebar(

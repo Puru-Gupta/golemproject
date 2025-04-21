@@ -61,7 +61,13 @@ mod_filter_ui <- function(id, data) {
                  `live-search`=TRUE
                ))
 
-      )
+      ),
+
+      column(width = 2, style = "display: flex; align-items: center; height: 100%;",
+             div(
+               style = "margin-top: 25px;",  # Optional: tweak this to align better with inputs
+               actionButton(ns("filt_btn"), label = "Apply Filter"))
+             )
 
 
     )
@@ -78,6 +84,7 @@ mod_filter_server <- function(id, data){
   moduleServer(id, function(input, output, session){
 
     ns <- session$ns
+ # observeEvent(input$filt_btn, {
 
     rv_city      <- reactiveValues()
     rv_station   <- reactiveValues()
@@ -91,7 +98,7 @@ mod_filter_server <- function(id, data){
       rv_year$year       <- input$year
     })
 
-
+#observeEvent(input$filt_btn, {
 
     observeEvent(rv_city$city, {
       updatePickerInput(session, inputId = "station",
@@ -127,29 +134,30 @@ mod_filter_server <- function(id, data){
     })
 
 
-    data_filter <- reactive({
 
-      get_data_df <- data
+    initial <- reactiveVal(TRUE)
 
-
-      filtered_df <-  get_data_df[ DISTRICT_NAME_ID %in% rv_city$city &
-                                   BLOCK_NAME_ID %in% rv_station$station &
-                                   Year %in% rv_year$year
-
-                                    , ]
-
-      #return( filtered_df )
-
-
-
-
+    filtered_data <- reactive({
+      if (initial()) {
+        # First launch: show full data
+        data
+      } else {
+        # After first launch: only on button click
+        req(input$city, input$station, input$year)
+        data[
+          DISTRICT_NAME_ID %in% input$city &
+            BLOCK_NAME_ID %in% input$station &
+            Year %in% input$year
+        ]
+      }
     })
 
+    # Change initial flag after first button click
+    observeEvent(input$filt_btn, {
+      initial(FALSE)
+    })
 
-
-    return(list(
-      filtered_data = data_filter
-    ))
+    return(list(filtered_data = filtered_data))
   })
 }
 
